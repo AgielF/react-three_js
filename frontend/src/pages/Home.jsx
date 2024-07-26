@@ -45,10 +45,10 @@ const Home = () => {
                 handleClick={() => state.intro = false}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
-               <CustomButton 
+              <CustomButton 
                 type="filled"
                 title="to git hub"
-                handleClick={() => href=""}
+                handleClick={() => window.location.href = "https://github.com/AgielF/react-three_js"}
                 customStyles="w-fit px-4 py-2.5 font-bold text-sm"
               />
             </motion.div>
